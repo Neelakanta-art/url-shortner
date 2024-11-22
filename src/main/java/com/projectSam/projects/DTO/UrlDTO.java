@@ -1,24 +1,13 @@
 package com.projectSam.projects.DTO;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class UrlDTO {
     private String originalUrl;
     private int expirationDays; // Optional: Expiration duration in days
-
-    // Getters and Setters
-    public String getOriginalUrl() {
-        return originalUrl;
-    }
-
-    public void setOriginalUrl(String originalUrl) {
-        this.originalUrl = originalUrl;
-    }
-
-    public int getExpirationDays() {
-        return expirationDays;
-    }
-
-    public void setExpirationDays(int expirationDays) {
-        this.expirationDays = expirationDays;
-    }
 }
-
