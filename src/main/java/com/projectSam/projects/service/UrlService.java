@@ -4,7 +4,7 @@ import com.projectSam.projects.DTO.UrlDTO;
 import com.projectSam.projects.DTO.UrlResponseDTO;
 import com.projectSam.projects.entity.UrlEntity;
 import com.projectSam.projects.exceptions.UrlNotFoundException;
-import com.projectSam.projects.repository.UrlRepository;
+import com.projectSam.projects.repo.UrlRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
