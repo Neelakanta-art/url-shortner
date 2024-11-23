@@ -13,7 +13,7 @@ const HomePage = () => {
     setShortUrl("");
 
     try {
-      const response = await axios.post("http://localhost:8080/api/create", {
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/create`, {
         originalUrl: originalUrl,
         expirationDays: 7, // Example: default expiration in 7 days
       });
