@@ -8,8 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 
-
-@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class UrlController {
