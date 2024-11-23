@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./HomePage.css"
 
 const HomePage = () => {
   const [originalUrl, setOriginalUrl] = useState("");
@@ -24,7 +25,7 @@ const HomePage = () => {
 
   return (
     <div className="container mt-5">
-      <h1>URL Shortener</h1>
+      <h1>Shorten your url here</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="urlInput" className="form-label">
