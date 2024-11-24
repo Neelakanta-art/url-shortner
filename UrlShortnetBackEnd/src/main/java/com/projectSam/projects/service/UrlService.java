@@ -43,7 +43,7 @@ public class UrlService {
         urlRepository.save(urlEntity);
 
         // Return the short URL
-        return new UrlResponseDTO("http://localhost:8080/api/" + shortKey);
+        return new UrlResponseDTO("https://mircourl.onrender.com/api/" + shortKey);
     }
 
     // Redirect to the original URL
